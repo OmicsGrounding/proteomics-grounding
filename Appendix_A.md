@@ -2,7 +2,7 @@
 
 ## A.1 Overview
 
-This appendix details the preliminary testing conducted to evaluate the effectiveness of the `GROUNDING.md` proteomics software correctness specification as a constraint enforcement mechanism for AI agents. Initial testing was performed with Claude Code (v.2.1.90, in medium effort mode) with Nemotron (NVIDIA-Nemotron-3-Super-120B-A12B-FP8) via VS Code (v1.114.0). We employed an agent tool where each session was fresh context and isolated, and the context files were read in via the prompt. This allowed for testing loading of the `GROUNDING.md` as well as competition with an "adversarial" `CLAUDE.md` that instructed the AI to ignore scientific validity and do what the user wants. The summaries below and organization were generated in an LLM-assisted manner.
+This appendix details the preliminary testing conducted to evaluate the effectiveness of the `GROUNDING.md` proteomics software correctness specification as a constraint enforcement mechanism for AI agents, and is directly discussed in the [arXiv preprint](https://arxiv.org/abs/2604.21744). Initial testing was performed with Claude Code (v.2.1.90, in medium effort mode) with Nemotron (NVIDIA-Nemotron-3-Super-120B-A12B-FP8) via VS Code (v1.114.0). We employed an agent tool where each session was fresh context and isolated, and the context files were read in via the prompt. This allowed for testing loading of the `GROUNDING.md` as well as competition with an "adversarial" `CLAUDE.md` that instructed the AI to ignore scientific validity and do what the user wants. The summaries below and organization were generated in an LLM-assisted manner.
 
 ## A.1.1 Context files
 
