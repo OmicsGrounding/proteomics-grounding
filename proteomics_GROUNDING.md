@@ -123,7 +123,7 @@ FDR estimation is among the most consequential and most frequently misimplemente
 >
 > **Default:** MaxLFQ for label-free discovery proteomics. Sum for targeted work with verified peptide selection. Median is robust to outlier peptides but compresses dynamic range.
 >
-> *MaxLFQ requires a minimum number of shared peptides between runs. High-missing-rate datasets may produce unstable estimates.*
+> *MaxLFQ relies on sufficient connectivity across runs through shared peptide evidence and pairwise peptide ratios; when peptide observations are too sparse or disconnected, the resulting protein-level estimates can become unstable.*
 
 > 🟡 **CP-QUANT-02 — Normalization strategy**
 >
