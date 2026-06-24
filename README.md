@@ -8,7 +8,7 @@
 
 A community-governed, field-scoped **epistemic grounding** framework for AI-assisted ("vibe-coded") proteomics software development.
 
-This repository is the home of `proteomics_GROUNDING.md` — a draft specification that encodes the hard-won, often-implicit consensus of mass spectrometry-based proteomics as machine-consumable rules, so that agentic coding tools generate scientifically valid software by default.
+This repository is the home of `proteomics_GROUNDING.md`, a draft specification that encodes the hard-won, often-implicit consensus of mass spectrometry-based proteomics as machine-consumable rules, so that agentic coding tools generate scientifically valid software by default.
 
 ---
 
