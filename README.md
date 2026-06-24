@@ -32,7 +32,7 @@ It encodes two kinds of content:
 - 🔴 **Hard Constraints (HC)** — non-negotiable validity invariants. If generated code would violate one, the agent should refuse, explain why, cite the constraint ID, and propose a compliant alternative.
 - 🟡 **Convention Parameters (CP)** — community-agreed defaults where more than one defensible answer exists. The agent exposes the options, warns when deviating from the default, and requires the choice to be documented.
 
-`GROUNDING.md` is prescriptive about **scientific correctness**, not workflow or style, and it deliberately contains no "how to" code templates — vetted `SKILL.md` documents can accompany it for that.
+`GROUNDING.md` is prescriptive about **scientific correctness**, not workflow or style, and it deliberately contains no "how to" code templates; we envisoin accompanying GROUNDING.md vetted `SKILL.md` documents for that.
 
 ---
 
