@@ -1,6 +1,6 @@
 ![proteomics-grounding repository logo](pictures/ProteomicsGrounding.png)
 
-# proteomics-context
+# proteomics-grounding
 
 [![arXiv](https://img.shields.io/badge/arXiv-2604.21744-b31b1b.svg)](https://arxiv.org/abs/2604.21744)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
