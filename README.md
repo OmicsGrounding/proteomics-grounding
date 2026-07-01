@@ -1,4 +1,4 @@
-![proteomics-context repository logo](pictures/proteomics-context.png)
+![proteomics-grounding repository logo](pictures/ProteomicsGrounding.png)
 
 # proteomics-context
 
