@@ -88,7 +88,7 @@ Planned and proposed directions include:
 - Expanding coverage (e.g., downstream statistical analysis, figure creation, journal submission).
 - Machine-readable variants (YAML/JSON) and linting/validation tooling, with CI via pytest and GitHub Actions against small, well-documented public datasets.
 - Alignment with HUPO-PSI and EuBIC resources and a lightweight review process.
-- A **proposed EuBIC 2027 hackathon** to define scope, curate hard constraints and convention parameters with broad domain input, and benchmark the document across agentic coding environments. See the [EuBIC2027 discussion](https://github.com/EuBIC/EuBIC2027/discussions/5).
+- A **proposed EuBIC 2027 hackathon** to define scope, curate hard constraints and convention parameters with broad domain input, and benchmark the document across agentic coding environments. Please join the [EuBIC2027 discussion](https://github.com/EuBIC/EuBIC2027/discussions/5)!
 
 We enthusiastically welcome participation regardless of experience level — including fresh perspectives from those new to AI agents, context engineering, or proteomics standards.
 
