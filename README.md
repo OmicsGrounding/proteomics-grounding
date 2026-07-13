@@ -45,7 +45,7 @@ It encodes two kinds of content:
 ### Related repositories and resources
 
 - **Paper (preprint):** [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) — *Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development* (Palmblad, Ragland, & Neely, 2026). In review at the ACS *Journal of Proteome Research*. HTML source: [arxiv.org/html/2604.21744v1](https://arxiv.org/html/2604.21744v1).
-- **Validation repository:** [`neely/proteomics_GROUNDING_validation`](https://github.com/neely/proteomics_GROUNDING_validation) — the full set of experiment artefacts (verbatim agent responses, numbered reports, rule-file variants) underpinning `Appendix_A.md`.
+- **Validation repository:** [`OmicsGrounding/proteomics_GROUNDING_validation`](https://github.com/OmicsGrounding/proteomics_GROUNDING_validation) — the full set of experiment artefacts (verbatim agent responses, numbered reports, rule-file variants) underpinning `Appendix_A.md`.
 
 ---
 
