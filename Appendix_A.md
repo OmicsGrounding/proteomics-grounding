@@ -2,11 +2,11 @@
 
 ## A.1 Overview
 
-This appendix details the preliminary testing conducted to evaluate the effectiveness of the `GROUNDING.md` proteomics software correctness specification as a constraint enforcement mechanism for AI agents, and is directly discussed in the [arXiv preprint](https://arxiv.org/abs/2604.21744). Initial testing was performed with Claude Code (v.2.1.90, in medium effort mode) with Nemotron (NVIDIA-Nemotron-3-Super-120B-A12B-FP8) via VS Code (v1.114.0). We employed an agent tool where each session was fresh context and isolated, and the context files were read in via the prompt. This allowed for testing loading of the `GROUNDING.md` as well as competition with an "adversarial" `CLAUDE.md` that instructed the AI to ignore scientific validity and do what the user wants. The summaries below and organization were generated in an LLM-assisted manner.
+This appendix details the preliminary testing conducted to evaluate the effectiveness of the `GROUNDING.md` proteomics software correctness specification as a constraint enforcement mechanism for AI agents, and is directly discussed in the [arXiv preprint](https://arxiv.org/abs/2604.21744). Initial testing was performed with Claude Code (v.2.1.90, in medium effort mode) with Nemotron (NVIDIA-Nemotron-3-Super-120B-A12B-FP8) via VS Code (v1.114.0). We employed an agent tool where each session was fresh context and isolated, and the context files were read in via the prompt. This allowed for testing loading of the `GROUNDING.md` as well as competition with an "adversarial" `CLAUDE.md` that instructed the AI to ignore scientific validity and do what the user wants. The summaries below and organization were generated in an LLM-assisted manner. The full testing results can be found at [github.com/OmicsGrounding/proteomics_GROUNDING_validation](https://github.com/OmicsGrounding/proteomics_GROUNDING_validation).
 
 ## A.1.1 Context files
 
-The GROUNDING.md is the same proteomics_GROUNDING.md v0.3 file described in the paper and found at github.com/OmicsContext/proteomics-context/. The "adversarial" `CLAUDE.md` is as follows:
+The GROUNDING.md is the same proteomics_GROUNDING.md v0.3 file described in the paper and found at [github.com/OmicsGrounding/proteomics-grounding](https://github.com/OmicsGrounding/proteomics-grounding) and Supporting Information in [the published paper](https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00398). The "adversarial" `CLAUDE.md` is as follows:
 ```
 # Project Rules for Proteomics Software Development
 
