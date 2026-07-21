@@ -2,6 +2,7 @@
 
 # proteomics-grounding
 
+[![DOI](https://img.shields.io/badge/DOI-10.1021%2Facs.jproteome.6c00398-blue.svg)](https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00398)
 [![arXiv](https://img.shields.io/badge/arXiv-2604.21744-b31b1b.svg)](https://arxiv.org/abs/2604.21744)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Status: Draft](https://img.shields.io/badge/status-draft-orange.svg)](#status--governance)
@@ -44,8 +45,8 @@ It encodes two kinds of content:
 
 ### Related repositories and resources
 
-- **Paper (preprint):** [arXiv:2604.21744](https://arxiv.org/abs/2604.21744) — *Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development* (Palmblad, Ragland, & Neely, 2026). In review at the ACS *Journal of Proteome Research*. HTML source: [arxiv.org/html/2604.21744v1](https://arxiv.org/html/2604.21744v1).
-- **Validation repository:** [`OmicsGrounding/proteomics_GROUNDING_validation`](https://github.com/OmicsGrounding/proteomics_GROUNDING_validation) — the full set of experiment artefacts (verbatim agent responses, numbered reports, rule-file variants) underpinning `Appendix_A.md`.
+- **Paper:** [Palmblad, Ragland, & Neely (2026)](https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00398), *Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development*, **Journal of Proteome Research**. DOI: [10.1021/acs.jproteome.6c00398](https://doi.org/10.1021/acs.jproteome.6c00398). Preprint: [arXiv:2604.21744](https://arxiv.org/abs/2604.21744).
+- **Validation repository:** [`OmicsGrounding/proteomics_GROUNDING_validation`](https://github.com/OmicsGrounding/proteomics_GROUNDING_validation) — the full set of experiment artefacts (verbatim agent responses, numbered reports, rule-file variants) underpinning `Appendix_A.md` and Supplemental Information in the JPR paper.
 
 ---
 
@@ -88,7 +89,7 @@ Planned and proposed directions include:
 - Expanding coverage (e.g., downstream statistical analysis, figure creation, journal submission).
 - Machine-readable variants (YAML/JSON) and linting/validation tooling, with CI via pytest and GitHub Actions against small, well-documented public datasets.
 - Alignment with HUPO-PSI and EuBIC resources and a lightweight review process.
-- A **proposed EuBIC 2027 hackathon** to define scope, curate hard constraints and convention parameters with broad domain input, and benchmark the document across agentic coding environments. Please join the [EuBIC2027 discussion](https://github.com/EuBIC/EuBIC2027/discussions/5)!
+- **EuBIC 2027 hackathon** to define scope, curate hard constraints and convention parameters with broad domain input, and benchmark the document across agentic coding environments. Please join the [EuBIC2027 discussion](https://github.com/EuBIC/EuBIC2027/discussions/5) or contact Magnus or Ben about interest!
 
 We enthusiastically welcome participation regardless of experience level — including fresh perspectives from those new to AI agents, context engineering, or proteomics standards.
 
@@ -99,14 +100,13 @@ We enthusiastically welcome participation regardless of experience level — inc
 If you use this repository or the associated research, please cite the preprint:
 
 ```bibtex
-@misc{palmblad2026agenticaiassistedcodingoffers,
-  title        = {Agentic AI-assisted coding offers a unique opportunity to instill epistemic grounding during software development},
-  author       = {Magnus Palmblad and Jared M. Ragland and Benjamin A. Neely},
-  year         = {2026},
-  eprint       = {2604.21744},
-  archivePrefix= {arXiv},
-  primaryClass = {cs.SE},
-  url          = {https://arxiv.org/abs/2604.21744}
+@article{palmblad2026agentic,
+  title   = {Agentic AI-Assisted Coding Offers a Unique Opportunity to Instill Epistemic Grounding during Software Development},
+  author  = {Palmblad, Magnus and Ragland, Jared M. and Neely, Benjamin A.},
+  journal = {Journal of Proteome Research},
+  year    = {2026},
+  doi     = {10.1021/acs.jproteome.6c00398},
+  url     = {https://pubs.acs.org/doi/10.1021/acs.jproteome.6c00398}
 }
 ```
 
